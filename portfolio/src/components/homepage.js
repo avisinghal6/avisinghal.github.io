@@ -101,6 +101,9 @@ const Homepage = () => {
             <span className="homepage-first-letter">V</span>ersatile{" "}
             <span className="homepage-first-letter">I</span>nnovator.{" "}
             {INFO.homepage.detail}
+			<br></br>
+			<br></br>
+			{INFO.homepage.detail2}
           </div>
 
           <div className="homepage-socials">
