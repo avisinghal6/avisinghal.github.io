@@ -95,12 +95,67 @@ const Homepage = () => {
           </div>
         </div>
 
-		<div className="content-wrapper">
-			<div className="homepage-intro">
-				Hi, I am <span className="homepage-first-letter">A</span>daptive <span className="homepage-first-letter">V</span>ersatile <span className="homepage-first-letter">I</span>nnovator
+        <div className="content-wrapper">
+          <div className="homepage-intro">
+            Hi, I am <span className="homepage-first-letter">A</span>daptive{" "}
+            <span className="homepage-first-letter">V</span>ersatile{" "}
+            <span className="homepage-first-letter">I</span>nnovator.{" "}
+            {INFO.homepage.detail}
+          </div>
 
-			</div>
-		</div>
+          <div className="homepage-socials">
+            <div className="socials-header">
+              <FontAwesomeIcon
+                icon={faHashtag}
+                className="homepage-social-icon-main"
+              />
+              <span className="homepage-social-text-main">Connect With Me</span>
+            </div>
+            <hr></hr>
+			<div className="socials-icons">
+								<a
+									href={INFO.socials.github}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faGithub}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.linkedin}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faLinkedin}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={INFO.socials.leetcode}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faCode}
+										className="homepage-social-icon"
+									/>
+								</a>
+								<a
+									href={`mailto:${INFO.main.email}`}
+									target="_blank"
+									rel="noreferrer"
+								>
+									<FontAwesomeIcon
+										icon={faMailBulk}
+										className="homepage-social-icon"
+									/>
+								</a>
+							</div>
+          </div>
+        </div>
 
         <div className="page-footer">
           <Footer />
