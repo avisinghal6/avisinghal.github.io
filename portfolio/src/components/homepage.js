@@ -20,6 +20,7 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "../styles/pages/homepage/homepage.css";
+
 const Homepage = () => {
     const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -76,7 +77,6 @@ const Homepage = () => {
 				/>
 			</Helmet>
 
-			Homepagess
 			<div className="page-content">
 				<NavBar active="home" />
 				<div className="content-wrapper">
