@@ -95,6 +95,13 @@ const Homepage = () => {
           </div>
         </div>
 
+		<div className="content-wrapper">
+			<div className="homepage-intro">
+				Hi, I am <span className="homepage-first-letter">A</span>daptive <span className="homepage-first-letter">V</span>ersatile <span className="homepage-first-letter">I</span>nnovator
+
+			</div>
+		</div>
+
         <div className="page-footer">
           <Footer />
         </div>

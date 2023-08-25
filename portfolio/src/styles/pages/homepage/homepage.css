@@ -175,6 +175,17 @@
 	padding-top: 30px;
 }
 
+.homepage-intro {
+	width:50%;
+	font-size: 25px;
+	color:white;
+}
+
+.homepage-first-letter {
+	font-size: 60px;
+	color: palegoldenrod
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
