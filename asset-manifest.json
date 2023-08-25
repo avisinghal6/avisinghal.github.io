@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/avisinghal.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/avisinghal.github.io/static/js/main.7db2a83c.js",
+    "main.js": "/avisinghal.github.io/static/js/main.16441c8a.js",
     "static/js/787.1ed0c42c.chunk.js": "/avisinghal.github.io/static/js/787.1ed0c42c.chunk.js",
     "index.html": "/avisinghal.github.io/index.html",
     "main.073c9b0a.css.map": "/avisinghal.github.io/static/css/main.073c9b0a.css.map",
-    "main.7db2a83c.js.map": "/avisinghal.github.io/static/js/main.7db2a83c.js.map",
+    "main.16441c8a.js.map": "/avisinghal.github.io/static/js/main.16441c8a.js.map",
     "787.1ed0c42c.chunk.js.map": "/avisinghal.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.7db2a83c.js"
+    "static/js/main.16441c8a.js"
   ]
 }
