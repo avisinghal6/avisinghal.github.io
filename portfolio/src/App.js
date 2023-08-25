@@ -8,8 +8,9 @@ import './App.css';
 function App() {
   return (
 		<div className="App">
+      Avi
 			<Routes>
-				<Route exact path="/" element={<Homepage />} />
+				<Route exact path="/avisinghal6.github.io/" element={<Homepage />} />
 			</Routes>
 		</div>
 	);
