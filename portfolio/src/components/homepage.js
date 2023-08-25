@@ -12,14 +12,14 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-// import Logo from "../components/common/logo";
-// import Footer from "../components/common/footer";
-// import NavBar from "../components/common/navBar";
+import Logo from "./common/logo";
+import Footer from "./common/footer";
+import NavBar from "./common/navbar";
 
-import INFO from "../../data/user";
-import SEO from "../../data/seo";
+import INFO from "../data/user";
+import SEO from "../data/seo";
 
-import "../../styles/pages/homepage/homepage.css";
+import "../styles/pages/homepage/homepage.css";
 const Homepage = () => {
     const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
@@ -67,7 +67,21 @@ const Homepage = () => {
 
     return (
         <div>
-            HomePagesss
+            <Helmet>
+				<title>{INFO.main.title}</title>
+				<meta name="description" content={currentSEO.description} />
+				<meta
+					name="keywords"
+					content={currentSEO.keywords.join(", ")}
+				/>
+			</Helmet>
+
+			Homepagess
+
+			<div className="page-footer">
+				<Footer />
+			</div>
+		
         </div>
     );
 }
