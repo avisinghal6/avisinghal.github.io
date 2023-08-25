@@ -10,7 +10,7 @@ function App() {
 		<div className="App">
       Avi
 			<Routes>
-				<Route exact path="/avisinghal6.github.io/" element={<Homepage />} />
+				<Route exact path="/" element={<Homepage />} />
 			</Routes>
 		</div>
 	);

@@ -1,6 +1,5 @@
 {
-  "homepage": "https://avisinghal6.github.io/avisinghal.github.io/",
-  "name": "portfolio",
+  "name": "avisinghal.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
