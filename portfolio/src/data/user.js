@@ -13,7 +13,14 @@ const INFO = {
 		github: "https://github.com/avisinghal6",
 		linkedin: "https://www.linkedin.com/in/avi-singhal99",
 		leetcode: "https://leetcode.com/avisinghal6/",
-	}
+	},
+	about: {
+		title: "A bit more about me!",
+		subtitle: "MCS at Rice University",
+		description: `
+			I am Avi 
+		`,
+	},
 };
 
 export default INFO;

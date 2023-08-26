@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../data/user";
 
-import "./styles/socials.css";
+import "../styles/socials.css";
 
 const Socials = () => {
 	return (

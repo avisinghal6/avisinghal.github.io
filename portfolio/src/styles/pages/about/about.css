@@ -1,7 +1,9 @@
 .about-logo-container {
 	display: flex;
 	justify-content: left;
+    width:50%;
 	padding-top: 25px;
+    word-wrap: break-word;
 }
 
 .about-logo {
@@ -26,14 +28,24 @@
 }
 
 .about-right-side {
-	flex-basis: 900px;
+    width:100%;
+    color:white;
 }
 
+.about-works {
+	flex-basis: 600px;
+	padding-top: 30px;
+}
+
+.about-first-area-right-side {
+	display: flex;
+	align-items: center;
+}
 .about-title {
-	width: 100% !important;
+	/* width: 100% !important; */
 	font-family: var(--secondary-font);
 	font-size: 50px;
-	color: var(--primary-color);
+	color: white;
 }
 
 .about-title2 {
@@ -42,9 +54,9 @@
 	width: 70%;
 }
 
-.about-subtitle {
+/* .about-subtitle {
 	width: 80% !important;
-}
+} */
 
 .about-left-side {
 	display: flex;

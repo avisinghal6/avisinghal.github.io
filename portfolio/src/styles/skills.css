@@ -1,0 +1,53 @@
+@import "./data/styles.css";
+
+/* skills.css */
+
+.skills {
+	/* Add any styles for the skills component container here */
+	display: flex;
+	padding-bottom: 40px;
+	width: 400px;
+}
+
+.skills-body {
+	/* Add styles for the body of the skills component here */
+	/* You can adjust margin, padding, etc., as needed */
+	margin-bottom: 10px;
+}
+
+.vl {
+	border-left: 1px solid gray;
+	height: 25px;
+	margin-right: 15px;
+}
+
+.skill {
+	/* Add styles for individual skill items here */
+	/* You can adjust the display, padding, width, etc., to fit your design */
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.icon-container {
+	width: 30px;
+	margin-right: 15px;
+}
+
+.skill-icon {
+	/* Add styles for the skill icon (font-awesome icon) here */
+	/* You can adjust the icon size, color, etc. */
+    color:white;
+	font-size: 20px;
+	width: 30px;
+}
+
+.skill-name {
+	/* Add styles for the skill name here */
+	/* You can adjust the font size, color, etc. */
+	font-size: 16px;
+	color: var(
+		--secondary-color
+	); /* Assuming you have defined --secondary-color in your data/styles.css file */
+	/* Add any other styles you want for the skill name */
+}

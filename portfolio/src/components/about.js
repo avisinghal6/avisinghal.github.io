@@ -5,11 +5,12 @@ import NavBar from "./common/navbar";
 import Footer from "./common/footer";
 import Logo from "./common/logo";
 import Socials from "./socials";
+import Skills from "./skills";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
-import "./styles/about.css";
+import "../styles/pages/about/about.css";
 
 const About = () => {
 	useEffect(() => {
@@ -19,7 +20,7 @@ const About = () => {
 	const currentSEO = SEO.find((item) => item.page === "about");
 
 	return (
-		<React.Fragment>
+		<div>
 			<Helmet>
 				<title>{`About | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
@@ -36,11 +37,8 @@ const About = () => {
 						<div className="about-logo">
 							<Logo width={46} />
 						</div>
-					</div>
 
-					<div className="about-container">
-						<div className="about-main">
-							<div className="about-right-side">
+                        <div className="about-right-side">
 								<div className="about-title">
 									{INFO.about.title}
 								</div>
@@ -48,19 +46,17 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
-							</div>
+						</div>
+					</div>
+
+					<div className="about-container">
+						<div className="about-main">
+							
 
 							<div className="about-left-side">
-								<div className="about-image-container">
-									<div className="about-image-wrapper">
-										<img
-											src={
-												process.env.PUBLIC_URL +
-												"/images/about.JPG"
-											}
-											alt="about"
-											className="about-image"
-										/>
+								<div className="about-first-area-right-side">
+									<div className="about-works">
+                                        <Skills />
 									</div>
 								</div>
 
@@ -73,12 +69,13 @@ const About = () => {
 							<Socials />
 						</div>
 					</div>
-					<div className="page-footer">
+					
+				</div>
+                <div className="page-footer">
 						<Footer />
-					</div>
 				</div>
 			</div>
-		</React.Fragment>
+        </div>
 	);
 };
 
