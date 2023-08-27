@@ -45,14 +45,18 @@ const About = () => {
 
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
+                                    <br></br>
+                                    <br></br>
+                                    {INFO.about.description2}
+                                    <br></br>
+                                    <br></br>
+                                    {INFO.about.description3}
 								</div>
 						</div>
 					</div>
 
 					<div className="about-container">
 						<div className="about-main">
-							
-
 							<div className="about-left-side">
 								<div className="about-first-area-right-side">
 									<div className="about-works">
@@ -63,6 +67,7 @@ const About = () => {
 								<div className="about-socials">
 									<Socials />
 								</div>
+
 							</div>
 						</div>
 						<div className="about-socials-mobile">
