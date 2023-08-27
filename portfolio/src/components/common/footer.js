@@ -25,6 +25,12 @@ const Footer = () => {
 							<Link to="/projects">Projects</Link>
 						</li>
 						<li className="footer-nav-link-item">
+							<Link to="/publications">Publications</Link>
+						</li>
+						<li className="footer-nav-link-item">
+							<Link to="/open_source">Open Source</Link>
+						</li>
+						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>
 					</ul>

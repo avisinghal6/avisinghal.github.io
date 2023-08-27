@@ -6,6 +6,7 @@
 	margin-top: 50px;
 	padding-bottom: 25px;
 	align-items: center;
+	width:100%;
 }
 
 .footer-links,
@@ -14,10 +15,10 @@
 }
 
 .footer-links {
-	/* margin-left: -40px; */
-	display: flex;
+	margin-left: -40px;
+	/* display: flex; */
 	justify-content: center;
-	align-items: center;
+	align-items: center; 
 }
 
 .footer-nav-link-list {
