@@ -32,18 +32,7 @@ const Skills = () => {
 
 							{/* <div class="vl"></div> */}
 							<div className="skill-name">
-								Python, Java, Javascript, HTML, CSS, MATLAB
-							</div>
-						</div>
-						<div className="skill">
-							<div className="icon-container">
-								<FontAwesomeIcon
-									icon={faServer}
-									className="skill-icon"
-								/>
-							</div>
-							<div className="skill-name">
-								Node.js, Redis
+								Python, Java, C++, Javascript, HTML, CSS, MATLAB
 							</div>
 						</div>
                         <div className="skill">
@@ -54,7 +43,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="skill-name">
-								ML,DL, NLP, computer vision, AI ISP
+								ML,DL, NLP, computer vision, CNN, RNN, LSTM, RL, GNN
 							</div>
 						</div>
 						<div className="skill">
@@ -65,7 +54,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="skill-name">
-								React, Angular, Redux
+								React.js, Node.js, Redis, Express.js, Pytorch, Tensorflow, ONNX
 							</div>
 						</div>
 						<div className="skill">
@@ -76,8 +65,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="skill-name">
-								AWS, Kubernetes, Jenkins, Git, JUnit, PHP
-								Artisan, Drools
+								AWS, Git
 							</div>
 						</div>
 						<div className="skill">
@@ -87,7 +75,7 @@ const Skills = () => {
 									className="skill-icon"
 								/>
 							</div>
-							<div className="skill-name">SQL, MongoDB</div>
+							<div className="skill-name">SQL, MongoDB,Firebase </div>
 						</div>
 					</div>
 				}

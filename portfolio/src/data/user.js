@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Avi Singhal",
 		name: "Avi Singhal",
-		email: "as278@rice.edu",
+		email: "avisinghal6@gmail.com",
 		logo: process.env.PUBLIC_URL + "/images/as.png",
 	},
 	homepage: {
