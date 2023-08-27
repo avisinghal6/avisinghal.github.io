@@ -7,6 +7,7 @@ import {
 	faServer,
 	faCodeCompare,
 	faFileCode,
+    faBrain
 } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "./common/card";
@@ -31,8 +32,7 @@ const Skills = () => {
 
 							{/* <div class="vl"></div> */}
 							<div className="skill-name">
-								Java, Javascript/Typescript, Python, C++, PHP,
-								Solidity
+								Python, Java, Javascript, HTML, CSS, MATLAB
 							</div>
 						</div>
 						<div className="skill">
@@ -43,7 +43,18 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="skill-name">
-								Spring Boot, Node.js, Laravel, Kafka, Redis
+								Node.js, Redis
+							</div>
+						</div>
+                        <div className="skill">
+							<div className="icon-container">
+								<FontAwesomeIcon
+									icon={faBrain}
+									className="skill-icon"
+								/>
+							</div>
+							<div className="skill-name">
+								ML,DL, NLP, computer vision, AI ISP
 							</div>
 						</div>
 						<div className="skill">
