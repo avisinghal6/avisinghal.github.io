@@ -68,6 +68,15 @@ const INFO = {
 		Fundamentals, Microprocessors and Interfacing, Control Systems.
 		`
 	},
+
+	experience: {
+		title: "My Work Experience",
+		description:
+			`My industry experience gave me the opportunity to work on various projects and in different roles which helped me 
+			improve and increase my skillset. I got the opportunity to drive my projects and deliver value to the company. I have worked
+			with different teams and across countries to deliver my projects and it helped me strength my collaboration and time
+			management skills. `,
+	},
 };
 
 export default INFO;

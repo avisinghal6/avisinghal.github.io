@@ -46,7 +46,7 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/resume">Experience</Link>
+								<Link to="/experience">Experience</Link>
 							</li>
 							<li
 								className={

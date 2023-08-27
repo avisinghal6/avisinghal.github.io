@@ -15,7 +15,13 @@ const SEO = [
 	{
 		page: "education",
 		description: "My Education history",
-		keywords: ["Harshit", "harshit K", "Harshit Khanna"],
+		keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
+	},
+
+	{
+		page: "experience",
+		description: "All my work experience",
+		keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
 	},
 ];
 
