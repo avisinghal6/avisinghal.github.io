@@ -11,10 +11,8 @@ import SEO from "../data/seo";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 import "../styles/experience.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import DownloadButton from "../components/common/downloadButton";
 
-const Experience = () => {
+const Publications = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -30,7 +28,7 @@ const Experience = () => {
       </Helmet>
 
       <div className="page-content">
-        <NavBar active="experience" />
+        <NavBar active="publications" />
         <div className="content-wrapper">
           <div className="resume-logo-container">
             <div className="resume-logo">
@@ -177,4 +175,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Publications;
