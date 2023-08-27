@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga4";
 import Homepage from "./components/homepage";
 import About from "./components/about";
+import Education from "./components/education";
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Homepage />} />
 				<Route exact path="/about" element={<About />} />
+				<Route exact path="/education" element={<Education />} />
 			</Routes>
 		</div>
 	);

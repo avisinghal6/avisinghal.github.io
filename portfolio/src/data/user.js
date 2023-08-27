@@ -51,6 +51,23 @@ const INFO = {
 		environment.
 		`
 	},
+	education: {
+		title: "My Education History",
+		description: `
+		I am currently pursuing a MS in Computer Science with specialization in Machine Learning at Rice University. 
+		I am expected to graduate in December 2023. Previously I attended Delhi Techological University in India, where I earned 
+		a Bachelor of Technology in Electronics and Communication. 
+		I have strong foundations in both the software and the hardware side. I have done numerous projects(details in projects section)
+		to gain hands on experience and to showcase my skills and knowledge.
+		`,
+		coursework1:`Software Engineering, Machine Learning, Deep Learning for Vision and Language, Machine Learning With Graphs
+		,Probabilistic Algorithms and Data Structures, Project Management, Graduate Design and Analysis of Algorithms,
+		Computer Architecture.
+		`,
+		coursework2:`Web Development, Pattern Recogntion, Embedded Systems, Algorithmic Toolbox, Data Structures, Programming
+		Fundamentals, Microprocessors and Interfacing, Control Systems.
+		`
+	},
 };
 
 export default INFO;
