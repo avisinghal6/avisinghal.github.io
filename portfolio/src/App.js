@@ -6,6 +6,7 @@ import About from "./components/about";
 import Education from "./components/education";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
+import Contact from "./components/contact";
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';
@@ -24,6 +25,7 @@ function App() {
 				<Route exact path="/education" element={<Education />} />
 				<Route exact path="/experience" element={<Experience />} />
 				<Route exact path="/projects" element={<Projects />} />
+				<Route exact path="/contact" element={<Contact />} />
 			</Routes>
 		</div>
 	);

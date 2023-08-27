@@ -30,6 +30,13 @@ const SEO = [
 			"I've worked on a wide range of projects on state-of-art technologies like ML/DL/NLP etc. and have also done projects on software development like web development using MERN stack and other technologies.",
 			keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
 	},
+
+	{
+		page: "contact",
+		description:
+			"If you're interested in collaborating on a project or have a job opportunity for me, feel free to reach out to me. I'm always open to new ideas and opportunities.",
+			keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
+	},
 ];
 
 export default SEO;
