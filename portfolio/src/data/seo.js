@@ -37,6 +37,11 @@ const SEO = [
 			"If you're interested in collaborating on a project or have a job opportunity for me, feel free to reach out to me. I'm always open to new ideas and opportunities.",
 			keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
 	},
+	{
+		page: "publications",
+		description: "My Publications",
+		keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
+	},
 ];
 
 export default SEO;

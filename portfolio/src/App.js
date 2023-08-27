@@ -7,6 +7,7 @@ import Education from "./components/education";
 import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
+import Publications from "./components/publications";
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
 				<Route exact path="/experience" element={<Experience />} />
 				<Route exact path="/projects" element={<Projects />} />
 				<Route exact path="/contact" element={<Contact />} />
+				<Route exact path="/publications" element={<Publications />} />
 			</Routes>
 		</div>
 	);

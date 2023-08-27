@@ -70,7 +70,7 @@ const Experience = () => {
                                 process.env.PUBLIC_URL +
                                 "/images/tetramem-logo.png"
                               }
-                              alt="smith"
+                              alt="Tetramem"
                               className="resume-work-image"
                             />
                             <div className="resume-work-title">
@@ -122,7 +122,7 @@ const Experience = () => {
                                 <strong>~3%</strong>.
                               </li>
                               <li>
-                                • Building framework to support quantization and
+                                Building framework to support quantization and
                                 inference of transformer-based Models for edge
                                 devices starting with quantized{" "}
                                 <a href="https://arxiv.org/pdf/2206.01191.pdf">
