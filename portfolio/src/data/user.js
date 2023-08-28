@@ -162,11 +162,15 @@ const INFO = {
 		link: "https://github.com/avisinghal6/Meta-Heuristic-Optimization-for-Cruise-Control",
 	  },	
   ],
-
   publications: {
     title: "My Publications",
     description: `My research during my undergrad lead to publications in IEEE and Springer. I have worked extensively on meta-
 	heuristic optimization. `,
+  },
+  opensource: {
+    title: "Open Source",
+    description: `I have made open source contributions to various libraries, it helped me get used to large code base
+	and get into the open source community.`,
   },
 };
 

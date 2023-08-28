@@ -42,6 +42,11 @@ const SEO = [
 		description: "My Publications",
 		keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
 	},
+	{
+		page: "opensource",
+		description: "Open Source",
+		keywords: ["Avi", "Avi S", "Avi Singhal", "AS"],
+	},
 ];
 
 export default SEO;

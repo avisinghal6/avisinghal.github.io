@@ -8,6 +8,7 @@ import Experience from "./components/experience";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Publications from "./components/publications";
+import OpenSource from "./components/opensource";
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';
@@ -28,6 +29,7 @@ function App() {
 				<Route exact path="/projects" element={<Projects />} />
 				<Route exact path="/contact" element={<Contact />} />
 				<Route exact path="/publications" element={<Publications />} />
+				<Route exact path="/opensource" element={<OpenSource />} />
 			</Routes>
 		</div>
 	);

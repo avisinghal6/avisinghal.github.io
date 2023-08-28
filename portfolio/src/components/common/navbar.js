@@ -68,12 +68,12 @@ const NavBar = (props) => {
 							</li>
 							<li
 								className={
-									active === "open source"
+									active === "opensource"
 										? "nav-item active"
 										: "nav-item"
 								}
 							>
-								<Link to="/open_source">Open Source</Link>
+								<Link to="/opensource">Open Source</Link>
 							</li>
 							<li
 								className={
