@@ -28,7 +28,7 @@ const Footer = () => {
 							<Link to="/publications">Publications</Link>
 						</li>
 						<li className="footer-nav-link-item">
-							<Link to="/open_source">Open Source</Link>
+							<Link to="/opensource">Open Source</Link>
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
