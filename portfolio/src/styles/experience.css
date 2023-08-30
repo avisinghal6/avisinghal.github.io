@@ -125,6 +125,13 @@
 	color: var(--secondary-color);
 }
 
+.resume-work-subtitle>p>a{
+	color:white;
+}
+/* .resume-work-subtitle>p{
+	display:inline;
+} */
+
 .resume-work-subtitle {
 	position: absolute;
 	font-size: 12px;
@@ -140,17 +147,42 @@
 	font-style: italic;
 	color: var(--secondary-color);
 	margin-left: 50px;
+	/* margin-top: 10px; */
 }
 
+.resume-work-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:white;
+	padding-top: -50px;
+	font-size: 12px;
+	margin-left: 50px;
+	/* width:80%; */
+}
 .resume-work-duration {
 	position: absolute;
-	width: 350px;
+	/* width: 350px; */
 	font-size: 12px;
 	padding-top: 20px;
+	padding-left: 380px;
 	text-align: right;
 	color: var(--tertiary-color);
 }
 
+.resume-publication {
+	flex-basis: 50%;
+}
+
+.resume-publication>a {
+	color:white;
+}
+
+/* .resume-date {
+	flex-basis: 50%;
+	justify-content: center;
+	align-items: center;
+} */
 .resume-work-details {
 	margin-left: 20px; /* Adding left margin */
 	margin-bottom: 10px;

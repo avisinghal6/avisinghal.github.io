@@ -54,10 +54,7 @@ const Publications = () => {
                         <div className="resume-works-body">
                           <div className="resume-work">
                             <img
-                              src={
-                                process.env.PUBLIC_URL +
-                                "/images/ieee.png"
-                              }
+                              src={process.env.PUBLIC_URL + "/images/ieee.png"}
                               alt="ieee"
                               className="resume-work-image"
                             />
@@ -65,13 +62,15 @@ const Publications = () => {
                               Optimal Tuning using Global Neighborhood Algorithm
                               for Cruise Control System
                             </div>
-                            <div className="resume-work-subtitle">
+                          </div>
+                          <div className="resume-work-container">
+                            <div className="resume-publication">
                               Published:{" "}
                               <a href="https://ieeexplore.ieee.org/document/9441983/authors#authors">
                                 IEEE Explore
                               </a>
                             </div>
-                            <div className="resume-work-duration">
+                            <div className="resume-date">
                               Aug 2020 - May 2021
                             </div>
                           </div>
@@ -115,13 +114,15 @@ const Publications = () => {
                               Comparative Analysis for Optimal Tuning of DC
                               Motor Position Control System
                             </div>
-                            <div className="resume-work-subtitle">
+                          </div>
+                          <div className="resume-work-container">
+                            <div className="resume-publication">
                               Published:{" "}
                               <a href="https://link.springer.com/chapter/10.1007/978-981-16-3346-1_60 ">
                                 Springer
                               </a>
                             </div>
-                            <div className="resume-work-duration">
+                            <div className="resume-date">
                               Aug 2020 - May 2021
                             </div>
                           </div>
