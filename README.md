@@ -1,2 +1,6 @@
-#deployed at : avisinghal.com, still a lot of work to do, but homepage is almost done.
+#deployed at : avisinghal.com.
 # avisinghal.github.io
+
+Things to work on:
+1. Add complete support for Google Analytics.
+2. Add support for all device friendly viewing.
