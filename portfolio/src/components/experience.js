@@ -91,22 +91,24 @@ const Experience = () => {
                           <div className="resume-work-details">
                             <ul className="resume-work-details-list">
                               <li>
-                                Developed a neural architecture search (NAS) and
-                                post-training quantization framework for
-                                production release. Achieved{" "}
-                                <strong>~0.5%</strong> quantization loss &{" "}
-                                <strong>88%</strong> accuracy on TinyML models
-                                using diverse search spaces for{" "}
-                                <strong>mobile devices</strong> for CIFAR10 and
-                                other applications. Implemented one-shot,
-                                multi-trial NAS for edge devices, developed
-                                optimized ONNX graphs and introduced
-                                <strong>joint optimization</strong> of NAS and
-                                Hyperparameter optimization(HPO) using RL
-                                inspired by CVPR 23’s{" "}
+                                Achieved high accuracy <strong>~85%</strong>,
+                                low quantization (uint8) loss{" "}
+                                <strong>(0.5%)</strong>, low latency{" "}
+                                <strong>(&lt; 5K MAC operations)</strong>, small
+                                model size <strong>(&lt; 350KB)</strong> by
+                                building neural architecture search (NAS) and
+                                post training quantization framework for
+                                resource constrained devices for computer
+                                vision. Improved accuracy by{" "}
+                                <strong>~3% </strong>to reach{" "}
+                                <strong>~88% </strong> accuracy for CIFAR10 on
+                                edge devices using joint optimization of NAS and
+                                Hyperparameter optimization (HPO) inspired by
+                                CVPR 23’s{" "}
                                 <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Multi-Agent_Automated_Machine_Learning_CVPR_2023_paper.pdf">
                                   MA2ML
-                                </a>
+                                </a>{" "}
+                                using RL.
                               </li>
                               <li>
                                 Model development, research and implementation
@@ -171,7 +173,7 @@ const Experience = () => {
                                 Developed a parasitic extraction tool with user
                                 interface using python scripts. The tool helped{" "}
                                 <strong>reduce</strong> test hardware redesign{" "}
-                                <strong>time, cost </strong> 
+                                <strong>time, cost </strong>
                                 by <strong>30%</strong> and better correlation
                                 of simulation output with tester results. Work
                                 published at TI conference.

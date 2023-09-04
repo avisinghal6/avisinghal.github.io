@@ -118,7 +118,6 @@ const Education = () => {
 														/>
 														<div className="education-card-title">
 															Delhi Technological University
-															University
 														</div>
 														<div className="education-card-subtitle">
 															Bachelors in

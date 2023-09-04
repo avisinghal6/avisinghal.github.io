@@ -65,7 +65,7 @@ const Skills = () => {
 								/>
 							</div>
 							<div className="skill-name">
-								AWS, Git
+								AWS, Git, Linux
 							</div>
 						</div>
 						<div className="skill">

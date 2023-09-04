@@ -30,8 +30,7 @@ const INFO = {
 			independently in an efficient manner. I have strong foundations in data structures and algorithms, and enjoy solving
 			complex problems, I am proficient in java, python and c++. I prefer to work outside my comfort zone because thats when I feel I am 
 			learning the most. I have worked extensively on computer vision, NLP, DL and ML applications. I have experience 
-			developing models, frameworks and pipelines for production release. I also have experience working on the ML compiler. I gained 
-			industry experience in ML during my software/ML internship at Tetramem (more details in the experience section.).
+			developing models, frameworks and pipelines for production release.
 			Apart from the ML side, I also have experience developing web applications, and I enjoy back-end development primarily because
 			I like working on different technologies and deployment schemes. I have developed many web applications and also deployed them 
 			(more details in project section). I tend to follow good coding practices and write code that is easy to understand and
@@ -39,13 +38,7 @@ const INFO = {
 			new ones to enhance productivity.
 
 		`,
-    description2: `I believe in order for someone to write truly efficient software, its necessary to understand the underlying hardware and its
-		limitations as well. I completed my undergrad in electronics and communication and hence possess the necessary hardware background
-		as well which enables to me to write efficient code for specific hardware when needed. I also worked for Texas Instruments
-		for a year after my undergrad before starting my Masters. Working at TI enabled me to work across teams and countries to 
-		deliver the product. It helped me improve my time management and collaboration skills. `,
-
-    description3: `I am now looking for opportunities where I can leverage my skills and deliver value to the company
+    description2: `I am now looking for opportunities where I can leverage my skills and deliver value to the company
 		and at the same time have a continuous growth by acquiring new skills. I believe I have the skills and the positive attitude required 
 		for excelling in the software/ML domain, I am quick at acquiring new skills and can adapt to a dynamically changing 
 		environment.

@@ -48,9 +48,6 @@ const About = () => {
                                     <br></br>
                                     <br></br>
                                     {INFO.about.description2}
-                                    <br></br>
-                                    <br></br>
-                                    {INFO.about.description3}
 								</div>
 						</div>
 					</div>
