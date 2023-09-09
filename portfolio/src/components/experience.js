@@ -98,8 +98,10 @@ const Experience = () => {
                                 model size <strong>(&lt; 350KB)</strong> by
                                 building neural architecture search (NAS) and
                                 post training quantization framework for
-                                resource constrained devices for computer
-                                vision. Improved accuracy by{" "}
+                                <strong>resource constrained</strong> devices for computer
+                                vision. 
+                                <li>
+                                    Improved accuracy by{" "}
                                 <strong>~3% </strong>to reach{" "}
                                 <strong>~88% </strong> accuracy for CIFAR10 on
                                 edge devices using joint optimization of NAS and
@@ -109,6 +111,7 @@ const Experience = () => {
                                   MA2ML
                                 </a>{" "}
                                 using RL.
+                                </li>
                               </li>
                               <li>
                                 Model development, research and implementation
@@ -124,7 +127,7 @@ const Experience = () => {
                                 <strong>~3%</strong>.
                               </li>
                               <li>
-                                Building framework to support quantization and
+                                Currently building framework to support quantization and
                                 inference of transformer-based Models for edge
                                 devices starting with quantized{" "}
                                 <a href="https://arxiv.org/pdf/2206.01191.pdf">

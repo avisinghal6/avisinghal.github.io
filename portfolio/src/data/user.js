@@ -73,7 +73,7 @@ const INFO = {
     {
       title:
         "Adaptive Learning with Dynamic Batch Creation Using Near-Neighbors",
-      description: `Created new batches using near neighbors of samples with highest gradients similar to the paper from ICLR 2016. Achieved faster train/val convergence compared to random batches for convex cases.`,
+      description: `Created an adaptive batch creation algorithm to create new batches using near neighbors of samples with highest gradients from previous batch like the paper from ICLR 2016. Attained ~5% faster convergence compared to random batches.`,
       logo: "https://miro.medium.com/v2/resize:fit:846/1*und5wL5DogTb8zkyOaFmrA.png",
       linkText: "View Project",
       link: "https://github.com/strankid/580-Project",
@@ -88,27 +88,21 @@ const INFO = {
     },
     {
       title: "Mechanistic Interpretability of Transformers",
-      description: `Built and trained a decoder only transformer inspired by Chatgpt, from scratch with only attention layers. Plotted attention
-			scores of keys and queries using heatmaps, observed some copying mechanism, skip gram behavior in a few attention heads.`,
+      description: `Built and trained a decoder only transformer inspired by ChatGPT, from scratch with only attention layers. Analyzed attention scores via heatmaps, revealing insights including copying mechanism, skip gram behavior in ~30% attention heads.`,
       logo: "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/12/the-transformers-the-movie.jpg",
       linkText: "View Project",
       link: "https://github.com/avisinghal6/Transformer-Training",
     },
     {
       title: "Recipe Generation from Videos ",
-      description: `Built a recipe generation pipeline leveraging pretrained models. Implemented parallel dense video 
-	  captioning for event proposals, reduced redundancy with cosine similarity. Enhanced the frames using YOLO, 
-	  harnessed BLIP for image captioning, Resnet for frame-to-feature conversion. Employed BARD,Chatgpt for concise caption
-		summarization.`,
+      description: `Engineered a recipe generation pipeline leveraging pretrained models. Executed parallel dense video captioning for event proposals, reduced redundancy with cosine similarity and elevated image analysis of frames using YOLO, harnessed BLIP for image captioning, Resnet for frame-to-feature conversion. Employed ChatGPT for concise caption summarization.Evaluated performance with BERTScore, obtaining commendable results despite absence of model training with latency ~5s`,
       logo: "https://repository-images.githubusercontent.com/388517773/326b4c61-e461-4356-a537-b4a2aa61b5d7",
       linkText: "View Project",
       link: "https://github.com/avisinghal6/VIDEO_CAPTIONING_PIPELINE",
     },
 	{
 		title: "Video Conferencing Application ",
-		description: `Designed a video conferencing application using React.js for the front-end and Express.js for the 
-		backend using Socket.io and WebRTC. Incorporated functionality for audio muting, disabling video, screen sharing, 
-		and more features being added`,
+		description: `Designed a video conferencing application using React.js for front-end and Express.js for backend using Socket.io, WebRTC. Incorporated functionality for audio muting, disabling video, screen sharing, and 5+ unique features being added.`,
 		logo: "https://builtin.com/sites/www.builtin.com/files/styles/og/public/video-conferencing-software.jpg",
 		linkText: "View Project",
 		link: "https://github.com/avisinghal6/Video-Conference-WebApp",
