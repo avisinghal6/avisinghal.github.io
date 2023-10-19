@@ -164,22 +164,20 @@ const Experience = () => {
                           <div className="resume-work-details">
                             <ul className="resume-work-details-list">
                               <li>
-                                Reviewed large C++ code base, designed scalable
+                                Reviewed large C++ code base, crafted scalable
                                 and efficient test program for production
-                                release. Resolved bugs, incorporated
+                                release. Resolved <strong>50+</strong> bugs, incorporated
                                 <strong>20+</strong> features for{" "}
-                                <strong>enhanced debugging</strong> to
-                                verification tool developed at TI, resulting in
-                                recognition as best user.
+                                <strong>enhanced debugging</strong> in the 
+                                verification tool crafted at TI, <strong> recognized </strong> as top user.
                               </li>
                               <li>
-                                Developed a parasitic extraction tool with user
-                                interface using python scripts. The tool helped{" "}
-                                <strong>reduce</strong> test hardware redesign{" "}
+                                Constructed a parasitic extraction tool with user
+                                interface with python scripts. The tool
+                                <strong>reduced</strong> test hardware redesign{" "}
                                 <strong>time, cost </strong>
-                                by <strong>30%</strong> and better correlation
-                                of simulation output with tester results. Work
-                                published at TI conference.
+                                by <strong>30%</strong> and better output correlation.
+                                Work published at TI conference.
                               </li>
                             </ul>
                           </div>
