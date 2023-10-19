@@ -93,48 +93,43 @@ const Experience = () => {
                               <li>
                                 Achieved high accuracy <strong>~85%</strong>,
                                 low quantization (uint8) loss{" "}
-                                <strong>(0.5%)</strong>, low latency{" "}
+                                <strong>(1%)</strong>, low latency{" "}
                                 <strong>(&lt; 5K MAC operations)</strong>, small
                                 model size <strong>(&lt; 350KB)</strong> by
                                 building neural architecture search (NAS) and
                                 post training quantization framework for
-                                <strong>resource constrained</strong> devices for computer
-                                vision. 
+                                <strong>edge devices</strong>. Worked on
+                                improvement of model performance by injecting
+                                noise during training to promote robustness.
                                 <li>
-                                    Improved accuracy by{" "}
-                                <strong>~3% </strong>to reach{" "}
-                                <strong>~88% </strong> accuracy for CIFAR10 on
-                                edge devices using joint optimization of NAS and
-                                Hyperparameter optimization (HPO) inspired by
-                                CVPR 23’s{" "}
-                                <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Multi-Agent_Automated_Machine_Learning_CVPR_2023_paper.pdf">
-                                  MA2ML
-                                </a>{" "}
-                                using RL.
+                                  Improved accuracy by <strong>~3% </strong>to
+                                  reach <strong>~88% </strong> accuracy for
+                                  CIFAR10 on edge devices using joint
+                                  optimization of NAS and Hyperparameter
+                                  optimization (HPO) inspired by CVPR 23’s{" "}
+                                  <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Multi-Agent_Automated_Machine_Learning_CVPR_2023_paper.pdf">
+                                    MA2ML
+                                  </a>{" "}
+                                  using RL.
                                 </li>
                               </li>
                               <li>
-                                Model development, research and implementation
-                                spanning computer vision, AI ISP and audio
-                                applications for edge devices.
+                                Experimented with quantization aware training
+                                with various schemes & identified best scheme
+                                for high accuracy models.
                               </li>
                               <li>
                                 Added support for <strong>5+</strong> intricate
                                 ONNX operators with unit tests and simulation of
                                 noise to ML compiler to enhance model inference
-                                on AI accelerator and improve accuracy by at
-                                least
-                                <strong>~3%</strong>.
+                                on AI accelerator and improve accuracy.
                               </li>
                               <li>
-                                Currently building framework to support quantization and
-                                inference of transformer-based Models for edge
-                                devices starting with quantized{" "}
-                                <a href="https://arxiv.org/pdf/2206.01191.pdf">
-                                  EfficientFormer
-                                </a>
-                                , paving the path for LLM support on Tetramem AI
-                                accelerator.
+                                Led development for edge inference framework of
+                                LLMs, developed integer inference for non-linear
+                                activation functions with low quantization loss.
+                                Finetuning vision transformers to achieve high
+                                performance for image classification.
                               </li>
                             </ul>
                           </div>
@@ -166,18 +161,20 @@ const Experience = () => {
                               <li>
                                 Reviewed large C++ code base, crafted scalable
                                 and efficient test program for production
-                                release. Resolved <strong>50+</strong> bugs, incorporated
+                                release. Resolved <strong>50+</strong> bugs,
+                                incorporated
                                 <strong>20+</strong> features for{" "}
-                                <strong>enhanced debugging</strong> in the 
-                                verification tool crafted at TI, <strong> recognized </strong> as top user.
+                                <strong>enhanced debugging</strong> in the
+                                verification tool crafted at TI,{" "}
+                                <strong> recognized </strong> as top user.
                               </li>
                               <li>
-                                Constructed a parasitic extraction tool with user
-                                interface with python scripts. The tool
+                                Constructed a parasitic extraction tool with
+                                user interface with python scripts. The tool
                                 <strong>reduced</strong> test hardware redesign{" "}
                                 <strong>time, cost </strong>
-                                by <strong>30%</strong> and better output correlation.
-                                Work published at TI conference.
+                                by <strong>30%</strong> and better output
+                                correlation. Work published at TI conference.
                               </li>
                             </ul>
                           </div>
