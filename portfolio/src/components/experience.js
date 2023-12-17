@@ -119,17 +119,16 @@ const Experience = () => {
                                 for high accuracy models.
                               </li>
                               <li>
-                                Added support for <strong>5+</strong> intricate
-                                ONNX operators with unit tests and simulation of
-                                noise to ML compiler to enhance model inference
-                                on AI accelerator and improve accuracy.
+                              Conducted extensive debugging & rigorous tests for quantization, increasing test coverage from 65% to 87%.
                               </li>
                               <li>
-                                Led development for edge inference framework of
-                                LLMs, developed integer inference for non-linear
-                                activation functions with low quantization loss.
-                                Finetuning vision transformers to achieve high
-                                performance for image classification.
+                                Introduced support for <strong>10+</strong> intricate
+                                ONNX operators with unit tests and simulation of
+                                noise to ML compiler to enhance model inference
+                                on AI accelerator and improve accuracy by at least ~5%.
+                              </li>
+                              <li>
+                              Led development for edge inference framework of LLMs, developed integer inference for non-linear activation functions with <strong>2%</strong> quantization loss. Finetuned vision transformers to achieve high performance for image classification.
                               </li>
                             </ul>
                           </div>
