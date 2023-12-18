@@ -20,7 +20,7 @@ function App() {
 	useEffect(() => {
 		ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
 		// ReactGA.pageview(location.pathname + location.search);
-	  }, [location]);
+	  }, [location.pathname,location.search]);
   return (
 		<div className="App">
 			<Routes>
