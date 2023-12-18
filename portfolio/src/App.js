@@ -10,7 +10,7 @@ import Contact from "./components/contact";
 import Publications from "./components/publications";
 import OpenSource from "./components/opensource";
 import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';

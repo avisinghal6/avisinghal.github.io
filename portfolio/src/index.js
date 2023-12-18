@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, HashRouter } from "react-router-dom";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import {TRACKING_ID} from "./data/tracking"
 // Initialize React Ga with your tracking ID
 ReactGA.initialize(TRACKING_ID);
