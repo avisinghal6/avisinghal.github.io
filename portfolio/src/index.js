@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, HashRouter } from "react-router-dom";
+import ReactGA from 'react-ga';
+import {TRACKING_ID} from "./data/tracking"
+// Initialize React Ga with your tracking ID
+ReactGA.initialize(TRACKING_ID);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

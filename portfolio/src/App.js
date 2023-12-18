@@ -9,16 +9,18 @@ import Projects from "./components/projects";
 import Contact from "./components/contact";
 import Publications from "./components/publications";
 import OpenSource from "./components/opensource";
+import { useLocation } from 'react-router-dom';
+// import ReactGA from 'react-ga';
 
 import { TRACKING_ID } from "./data/tracking";
 import './App.css';
 
 function App() {
+	const location = useLocation();
 	useEffect(() => {
-		if (TRACKING_ID !== "") {
-			ReactGA.initialize(TRACKING_ID);
-		}
-	}, []);
+		ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+		// ReactGA.pageview(location.pathname + location.search);
+	  }, [location]);
   return (
 		<div className="App">
 			<Routes>
