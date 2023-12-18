@@ -2,5 +2,4 @@
 # avisinghal.github.io
 
 Things to work on:
-1. Add complete support for Google Analytics.
-2. Add support for all device friendly viewing.
+1. Add support for all device friendly viewing.
