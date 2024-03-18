@@ -23,24 +23,25 @@ const INFO = {
     title: "A bit more about me!",
     subtitle: "MCS at Rice University",
     description: `
-			I am Avi Singhal, I am currently pursuing MS in Computer Science with a specialization in machine learning at Rice
-			University. I have undertaken extensive coursework related to the state-of-art technologies and have completed numerous
+			I am Avi Singhal, I am currently working as a ML Engineer at Tetramem Inc. I completed my MS in Computer Science with a specialization in machine learning at Rice
+			University. My work includes developing and implementing novel quantization methods and model compression techniques. I am developing an adaptive quantizer that supprots float fallback
+			when the integer computations lead to low accuracy, adding support for quantization of vision transformers. I am working on neural architecture search
+			and model development and training for object, face detection related tasks. I like discussing and reading about latest works to keep myself updated about state of art technologies.
+			I have undertaken extensive coursework related to the state-of-art technologies and have completed numerous
 			projects to put those skills at practical applications and thereby strengthening my skills. I have grown from a novice 
 			in this field to a professional in a relatively small span of time, I am now someone who can handle, complete and lead projects
 			independently in an efficient manner. I have strong foundations in data structures and algorithms, and enjoy solving
 			complex problems, I am proficient in java, python and c++. I prefer to work outside my comfort zone because thats when I feel I am 
 			learning the most. I have worked extensively on computer vision, NLP, DL and ML applications. I have experience 
 			developing models, frameworks and pipelines for production release.
-			Apart from the ML side, I also have experience developing web applications, and I enjoy back-end development primarily because
-			I like working on different technologies and deployment schemes. I have developed many web applications and also deployed them 
-			(more details in project section). I tend to follow good coding practices and write code that is easy to understand and
-			scale. I am passionate about optimizing the work flows and processes, I try to improve the current methods and even create
-			new ones to enhance productivity.
+			
 
 		`,
-    description2: `I am now looking for opportunities where I can leverage my skills and deliver value to the company
-		and at the same time have a continuous growth by acquiring new skills. I believe I have the skills and the positive attitude required 
-		for excelling in the software/ML domain, I am quick at acquiring new skills and can adapt to a dynamically changing 
+    description2: `Apart from the ML side, I also have experience developing web applications, and I enjoy back-end development primarily because
+	I like working on different technologies and deployment schemes. I have developed many web applications and also deployed them 
+	(more details in project section). I tend to follow good coding practices and write code that is easy to understand and
+	scale. I am passionate about optimizing the work flows and processes, I try to improve the current methods and even create
+	new ones to enhance productivity. I am quick at acquiring new skills and can adapt to a dynamically changing 
 		environment.
 		`,
   },
@@ -100,54 +101,54 @@ const INFO = {
       linkText: "View Project",
       link: "https://github.com/avisinghal6/VIDEO_CAPTIONING_PIPELINE",
     },
-	{
-		title: "Video Conferencing Application ",
-		description: `Designed a video conferencing application using React.js for front-end and Express.js for backend using Socket.io, WebRTC. Incorporated functionality for audio muting, disabling video, screen sharing, and 5+ unique features being added.`,
-		logo: "https://builtin.com/sites/www.builtin.com/files/styles/og/public/video-conferencing-software.jpg",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/Video-Conference-WebApp",
-	  },
-	  ,
-	{
-		title: "Social Media Website ",
-		description: `Developed social media platform using MERN stack and HTML, CSS. Implemented authentication using
+    {
+      title: "Video Conferencing Application ",
+      description: `Designed a video conferencing application using React.js for front-end and Express.js for backend using Socket.io, WebRTC. Incorporated functionality for audio muting, disabling video, screen sharing, and 5+ unique features being added.`,
+      logo: "https://builtin.com/sites/www.builtin.com/files/styles/og/public/video-conferencing-software.jpg",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/Video-Conference-WebApp",
+    },
+    ,
+    {
+      title: "Social Media Website ",
+      description: `Developed social media platform using MERN stack and HTML, CSS. Implemented authentication using
 		multiple strategies from passport.js. Incorporated creation, deletion of posts, comments, likes, friend requests and
 		personal real-time chat rooms`,
-		logo: "https://wpcom.files.wordpress.com/2021/06/924330_featured-image-for-wordpress-com_121820.png",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/Social-media-website",
-	  },
-	  {
-		title: "Personal Website ",
-		description: `My personal website(this website) built using React and deployed with Github pages.`,
-		logo: "https://static.vecteezy.com/system/resources/previews/009/317/397/original/personal-website-icon-logo-illustration-portfolio-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/avisinghal.github.io",
-	  },
-	  {
-		title: "URL Shortener ",
-		description: `Shortening a URL, adding a browser extension, QR code for url shortening and other features. Project under
+      logo: "https://wpcom.files.wordpress.com/2021/06/924330_featured-image-for-wordpress-com_121820.png",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/Social-media-website",
+    },
+    {
+      title: "Personal Website ",
+      description: `My personal website(this website) built using React and deployed with Github pages.`,
+      logo: "https://static.vecteezy.com/system/resources/previews/009/317/397/original/personal-website-icon-logo-illustration-portfolio-symbol-template-for-graphic-and-web-design-collection-free-vector.jpg",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/avisinghal.github.io",
+    },
+    {
+      title: "URL Shortener ",
+      description: `Shortening a URL, adding a browser extension, QR code for url shortening and other features. Project under
 		development.`,
-		logo: "https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/URL_Shortener",
-	  },
-	  {
-		title: "Meta-heuristic Optimization for DC motor position control",
-		description: `Optimization of DC motor position control using meta-heuristic algorithms. I present a comparative analysis
+      logo: "https://www.clickslice.co.uk/wp-content/uploads/2022/07/1_Pdw7h5X6vQQNVopIzHBG6A.jpeg",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/URL_Shortener",
+    },
+    {
+      title: "Meta-heuristic Optimization for DC motor position control",
+      description: `Optimization of DC motor position control using meta-heuristic algorithms. I present a comparative analysis
 		of various algorithms and methods, work is published at Springer.`,
-		logo: "https://www.electronics-lab.com/wp-content/uploads/2021/10/003-2.jpg",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/Meta-Heuristic-Optimization-for-DC-motor-position-control",
-	  },	
-	  {
-		title: "Meta-heuristic Optimization for cruise control",
-		description: `Optimization of cruise control using meta-heuristic algorithms. My work beats prior work and is published 
+      logo: "https://www.electronics-lab.com/wp-content/uploads/2021/10/003-2.jpg",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/Meta-Heuristic-Optimization-for-DC-motor-position-control",
+    },
+    {
+      title: "Meta-heuristic Optimization for cruise control",
+      description: `Optimization of cruise control using meta-heuristic algorithms. My work beats prior work and is published 
 		at IEEE.`,
-		logo: "https://d2m3nfprmhqjvd.cloudfront.net/blog/20220512171944/Cruise-control-1-1160x653.jpg",
-		linkText: "View Project",
-		link: "https://github.com/avisinghal6/Meta-Heuristic-Optimization-for-Cruise-Control",
-	  },	
+      logo: "https://d2m3nfprmhqjvd.cloudfront.net/blog/20220512171944/Cruise-control-1-1160x653.jpg",
+      linkText: "View Project",
+      link: "https://github.com/avisinghal6/Meta-Heuristic-Optimization-for-Cruise-Control",
+    },
   ],
   publications: {
     title: "My Publications",

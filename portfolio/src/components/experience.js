@@ -77,16 +77,64 @@ const Experience = () => {
                               Tetramem Inc.
                             </div>
                             <div className="resume-work-subtitle">
-                              Software/ML Engineer Intern
+                              ML Model Development Engineer
                             </div>
                             <div className="resume-work-duration">
-                              May 2023 - Dec 2023
+                              Feb 2024 - Present
                             </div>
                           </div>
                           <div className="resume-work-skills">
                             <strong>Skills:</strong> Python, C++, Pytorch,
                             Keras/Tensorflow, Hugging Face, ONNX, AWS, Docker,
                             Microsoft NNI, Jupyter notebooks, Linux, Git
+                          </div>
+                          <div className="resume-work-details">
+                            <ul className="resume-work-details-list">
+                              <li>
+                                Leading development for edge inference framework
+                                of LLMs, developed integer inference for
+                                non-linear activation functions with{" "}
+                                <strong>2%</strong> quantization loss.
+                                Developing adaptive quantizer with float
+                                fallback to maintain high accuracy when integer
+                                computations lower quantized model accuracy.
+                              </li>
+                              <li>
+                                Prototyping & finetuning compressed versions of
+                                vision transformers, compressing state
+                                space-based MAMBA model. Developing
+                                architectures and search spaces for audio
+                                applications, object, and face detection
+                              </li>
+                              <li>
+                                Model development and training for gauge reading
+                                applications.
+                              </li>
+                            </ul>
+                          </div>
+                          <div className="resume-work">
+                            <img
+                              src={
+                                process.env.PUBLIC_URL +
+                                "/images/tetramem-logo.png"
+                              }
+                              alt="Tetramem"
+                              className="resume-work-image"
+                            />
+                            <div className="resume-work-title">
+                              Tetramem Inc.
+                            </div>
+                            <div className="resume-work-subtitle">
+                              Software/ML Engineer Intern
+                            </div>
+                            <div className="resume-work-duration">
+                              May 2023 - Nov 2023
+                            </div>
+                            <div className="resume-work-skills">
+                              <strong>Skills:</strong> Python, C++, Pytorch,
+                              Keras/Tensorflow, Hugging Face, ONNX, AWS, Docker,
+                              Microsoft NNI, Jupyter notebooks, Linux, Git
+                            </div>
                           </div>
                           <div className="resume-work-details">
                             <ul className="resume-work-details-list">
@@ -119,16 +167,16 @@ const Experience = () => {
                                 for high accuracy models.
                               </li>
                               <li>
-                              Conducted extensive debugging & rigorous tests for quantization, increasing test coverage from 65% to 87%.
+                                Conducted extensive debugging & rigorous tests
+                                for quantization, increasing test coverage from
+                                65% to 87%.
                               </li>
                               <li>
-                                Introduced support for <strong>10+</strong> intricate
-                                ONNX operators with unit tests and simulation of
-                                noise to ML compiler to enhance model inference
-                                on AI accelerator and improve accuracy by at least ~5%.
-                              </li>
-                              <li>
-                              Led development for edge inference framework of LLMs, developed integer inference for non-linear activation functions with <strong>2%</strong> quantization loss. Finetuned vision transformers to achieve high performance for image classification.
+                                Introduced support for <strong>10+</strong>{" "}
+                                intricate ONNX operators with unit tests and
+                                simulation of noise to ML compiler to enhance
+                                model inference on AI accelerator and improve
+                                accuracy by at least ~5%.
                               </li>
                             </ul>
                           </div>
