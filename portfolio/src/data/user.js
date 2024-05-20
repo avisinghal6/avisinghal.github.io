@@ -9,7 +9,8 @@ const INFO = {
     detail: `I am an aspiring machine learning engineer with strong foundations in ML,DL and NLP, 
 		substantiated by practical projects and enriched by my industry experience. 
 		I am passionate about problem-solving and like to work on challenging problems which require novel thinking
-    and solutions. 
+    and solutions. I keep myself updated with latest research, I am quick at ramping to new technologies and love to consistently 
+    upskill myself.
 		`,
     detail2: `I strongly believe in 'Skills can be nurtured with opportunity, but an open mind, insatiable hunger for
 		 learning, and a tenacious attitude are the forge that shapes the truly exceptional.' `,
@@ -21,19 +22,14 @@ const INFO = {
   },
   about: {
     title: "A bit more about me!",
-    subtitle: "MCS at Rice University",
+    subtitle: "ML Model Development Engineer",
     description: `
-			I am Avi Singhal, I am currently working as a ML Engineer at Tetramem Inc. I completed my MS in Computer Science with a specialization in machine learning at Rice
-			University. My work includes developing and implementing novel quantization methods and model compression techniques. I am developing an adaptive quantizer that supprots float fallback
-			when the integer computations lead to low accuracy, adding support for quantization of vision transformers. I am working on neural architecture search
-			and model development and training for object, face detection related tasks. I like discussing and reading about latest works to keep myself updated about state of art technologies.
-			I have undertaken extensive coursework related to the state-of-art technologies and have completed numerous
-			projects to put those skills at practical applications and thereby strengthening my skills. I have grown from a novice 
-			in this field to a professional in a relatively small span of time, I am now someone who can handle, complete and lead projects
-			independently in an efficient manner. I have strong foundations in data structures and algorithms, and enjoy solving
-			complex problems, I am proficient in java, python and c++. I prefer to work outside my comfort zone because thats when I feel I am 
-			learning the most. I have worked extensively on computer vision, NLP, DL and ML applications. I have experience 
-			developing models, frameworks and pipelines for production release.
+			I am Avi Singhal, I am currently working as a ML Development Engineer at Tetramem Inc. My work includes developing and implementing novel quantization methods and model compression techniques. 
+      I am developing an adaptive quantizer that supports float fallback when the integer computations lead to low accuracy, adding support for quantization of vision transformers. I am working on neural architecture search
+			and model development and training for object, face detection related tasks. I am working on the development of hybrid CNN and state space (MAMBA) models to further achieve better performance.
+			I am also working on model development and training of Tiny LLMs. I like to optimize existing programs and develop novel solutions
+      for challenging problems. I am also adding more parallelism to existing code base to improve performance.
+      I prefer to work outside my comfort zone because thats when I feel I am learning the most.
 			
 
 		`,
