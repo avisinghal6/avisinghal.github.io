@@ -107,6 +107,7 @@
 .resume-work {
 	display: flex;
 	padding-bottom: 15px;
+	text-align: justify;
 }
 
 .resume-work-image {
@@ -190,6 +191,7 @@
 	/* Adding padding inside the box */
 	border-radius: 15px; /* Adding rounded corners for a smoother look */
 	transition: box-shadow 0.5s ease-in-out; /* Adding transition for smooth animation */
+	text-align: justify;
 }
 
 .resume-work-details:hover {

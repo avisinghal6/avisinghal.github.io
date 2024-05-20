@@ -31,6 +31,7 @@
 .about-right-side {
     width:100%;
     color:white;
+	justify-content: space-between;
 }
 
 .about-works {
@@ -55,9 +56,10 @@
 	width: 70%;
 }
 
-/* .about-subtitle {
-	width: 80% !important;
-} */
+.about-subtitle {
+	width: 100%;
+	text-align: justify;
+}
 
 .about-left-side {
 	display: flex;

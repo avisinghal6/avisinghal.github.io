@@ -43,7 +43,7 @@ const About = () => {
 									{INFO.about.title}
 								</div>
 
-								<div className="subtitle about-subtitle">
+								<div className="about-subtitle">
 									{INFO.about.description}
                                     <br></br>
                                     <br></br>
