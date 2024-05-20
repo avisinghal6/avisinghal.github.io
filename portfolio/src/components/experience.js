@@ -91,13 +91,16 @@ const Experience = () => {
                           <div className="resume-work-details">
                             <ul className="resume-work-details-list">
                               <li>
-                                Leading development for edge inference framework
-                                of LLMs, developed integer inference for
-                                non-linear activation functions with{" "}
-                                <strong>2%</strong> quantization loss.
-                                Developing adaptive quantizer with float
-                                fallback to maintain high accuracy when integer
-                                computations lower quantized model accuracy.
+                                Leading research & development of efficient edge
+                                integer(UINT8) inference framework of LLMs & CNN
+                                models with (&lt;1%) quantization loss. Detected
+                                & solved critical bugs in the quantization
+                                framework leading to accuracy increase from{" "}
+                                <strong>0.5% to 90% </strong>for vision
+                                transformers, obtained correlation greater than{" "}
+                                <strong> 0.99 </strong> for all layers and
+                                models in the model zoo. Paving the path for
+                                4-bit quantization of ViTs and LLMs.
                               </li>
                               <li>
                                 Prototyping & finetuning compressed versions of
@@ -109,6 +112,28 @@ const Experience = () => {
                               <li>
                                 Model development and training for gauge reading
                                 applications.
+                              </li>
+                              <li>
+                                Developing, training models and demos for face
+                                and gaze tracking for AR/VR applications.
+                              </li>
+                              <li>
+                                Developing search algorithms to facilitate
+                                switching between float/integer and mixed
+                                precision execution based on layer outputs &
+                                performance and increase flexibility.
+                              </li>
+                              <li>
+                                Developing and benchmarking tiny stories LLMs,
+                                identifying high performing architectures and
+                                schemes for execution on custom AI accelerators
+                                (in memory compute).
+                              </li>
+                              <li>
+                                Implemented parallel execution support using
+                                Python parallel programming, enhancing
+                                performance and efficiency of the existing code
+                                base.
                               </li>
                             </ul>
                           </div>
